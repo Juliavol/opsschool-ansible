@@ -1,5 +1,5 @@
 terraform {
-  required_version = ">= 0.12.0"
+  required_version = ">= 0.13.5"
 }
 
 variable "aws_region" {
@@ -9,12 +9,12 @@ variable "aws_region" {
 
 variable "vpc_id" {
   description = "AWS VPC id"
-  default     = "vpc-05c75f72d7837f8d0"
+  default     = "XXXXXXXXXXXXXX"
 }
 
 variable "subnet_id" {
   description = "Ansible Subnet id"
-  default     = "subnet-088d7d0c821319b3c"
+  default     = "XXXXXXXXXXXXX"
 }
 
 variable "ingress_ports" {
